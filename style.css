@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+body {
+    display:table-cell;
+    vertical-align:middle;
+}
+form {
+    width: 25vw;
+    text-align: center;
+    display:table;
+    margin:auto;
+}
+.colorPick {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.color {
+    text-align: center;
+}
